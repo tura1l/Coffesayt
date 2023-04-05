@@ -1,0 +1,29 @@
+.section1{
+    position: relative;
+.s1t{
+    width: 100%;
+   display: flex;
+   justify-content: flex-end;
+    .oturaq{
+        margin-top: 90px;
+        width: 720px;
+        margin-bottom: 40px;
+    }
+}
+.s1t5{
+    position: absolute;
+    .h1{
+        font-size: 40px;
+        font-family: $font-family;
+        font-weight: 200;
+    }
+    .h2{
+        font-size: 40px;
+        font-family: $font-family;
+        font-weight: 200;
+        background-color: $font-backgroundcolor;
+        color: $font-color2;
+        width: 330px;
+    }
+}
+}
