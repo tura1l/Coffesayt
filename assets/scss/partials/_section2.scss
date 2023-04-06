@@ -1,47 +1,60 @@
-.hisse1{
+.hisse1 {
     display: flex;
     align-items: center;
-    width: calc(100% / 1);
-    .icon{
+
+    .icon {
         font-size: 120px;
-        &:hover{
+
+        &:hover {
             color: $font-colorhover;
-            animation: icon 1 linear 1;
-            @keyframes icon {
-                0%{
-                    transform: rotate(0deg);
-                    left: 0%;
-                   }
-                   100%{
-                    transform: rotate(0deg);
-                    left: 100%;
-                   }
-            }
         }
     }
-    .text{
-        width: 230px;
+
+    .text {
+        width: 290px;
+        font-family: 'Poppins', sans-serif;
     }
 }
-.hisse2{
-    width: calc(100% / 1);
-    .icon{
+
+.hisse2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    .icon {
         font-size: 120px;
     }
-    .text{
-        width: 230px;
+
+    .text {
+        width: 300px;
         text-align: center;
+        font-family: 'Poppins', sans-serif;
     }
 }
-.hisse3{
-    width: calc(100% / 1);
+
+.hisse3 {
     display: flex;
     align-items: center;
-    .icon{
+
+    .icon {
         font-size: 120px;
     }
-    .text{
-        width: 300px;
-       text-align: right;
+
+    .text {
+        width: 380px;
+        text-align: right;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.section2 {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    .container {
+        .iconss {
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }

@@ -3,28 +3,47 @@
 @import 'partials/header';
 @import 'partials/section1';
 @import 'partials/section2';
-*{
+@import 'partials/section3';
+@import 'partials/section4';
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 80%;
     margin: 0 10%;
-    .headerm{
-       list-style: none;
-       li{
-          display: inline-block;
-          a{
-            text-decoration: none;
-          }
-       }
+
+    .headerm {
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+            }
+        }
     }
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
 }
-.loqo{
+
+.loqo {
     background-color: black;
+}
+
+.col-6 {
+    width: calc(100%/2);
+}
+.col-3{
+    width: calc(100%/4);
+}
+.col-4{
+    width: calc(100%/3);
 }

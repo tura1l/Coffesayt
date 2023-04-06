@@ -1,0 +1,40 @@
+.section3{
+    background-color: $font-backgroundcolor;
+    padding: 70px;
+    .container{
+        background-color: $font-backgroundcolor;
+        align-items: center;
+        .s3y1{
+            text-align: center;
+            .sp1{
+                color: $font-color2;
+                font-family: $font-family2;
+                font-size: 100px;
+            }
+            .sp2{
+                color: $font-color2;
+                font-family: $font-family2;
+                font-size: 18px;
+            }
+        }
+        .s3y2{
+            color: $font-color2;
+            text-align: center;
+            font-family: $font-family2;
+            width: 38%;
+        }
+        .s3y3{
+            text-align: center;
+            .sp1{
+                color: $font-color2;
+                font-family: $font-family2;
+                font-size: 100px;
+            }
+            .sp2{
+                color: $font-color2;
+                font-family: $font-family2;
+                font-size: 18px;
+            }
+        }
+    }
+}

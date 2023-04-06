@@ -100,42 +100,34 @@ header .but1:hover {
 .hisse1 {
   display: flex;
   align-items: center;
-  width: 100%;
 }
 .hisse1 .icon {
   font-size: 120px;
 }
 .hisse1 .icon:hover {
   color: #FF6000;
-  animation: icon 1 linear 1;
-}
-@keyframes icon {
-  0% {
-    transform: rotate(0deg);
-    left: 0%;
-  }
-  100% {
-    transform: rotate(0deg);
-    left: 100%;
-  }
 }
 .hisse1 .text {
-  width: 230px;
+  width: 290px;
+  font-family: "Poppins", sans-serif;
 }
 
 .hisse2 {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
 }
 .hisse2 .icon {
   font-size: 120px;
 }
 .hisse2 .text {
-  width: 230px;
+  width: 300px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .hisse3 {
-  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -143,8 +135,75 @@ header .but1:hover {
   font-size: 120px;
 }
 .hisse3 .text {
-  width: 300px;
+  width: 380px;
   text-align: right;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+.section2 .container .iconss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section3 {
+  background-color: #FF6000;
+  padding: 70px;
+}
+.section3 .container {
+  background-color: #FF6000;
+  align-items: center;
+}
+.section3 .container .s3y1 {
+  text-align: center;
+}
+.section3 .container .s3y1 .sp1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+}
+.section3 .container .s3y1 .sp2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.section3 .container .s3y2 {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 38%;
+}
+.section3 .container .s3y3 {
+  text-align: center;
+}
+.section3 .container .s3y3 .sp1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+}
+.section3 .container .s3y3 .sp2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.section4 {
+  padding: 100px 0px;
+}
+.section4 .container .s4yazi {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.section4 .container .s4yazi .s4p2 {
+  font-size: 40px;
+  color: #FF6000;
+}
+.section4 .container .s4image .col-3 {
+  width: 33%;
+  height: auto;
 }
 
 * {
@@ -174,4 +233,16 @@ header .but1:hover {
 
 .loqo {
   background-color: black;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
 }
